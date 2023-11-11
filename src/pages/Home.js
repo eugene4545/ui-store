@@ -212,11 +212,49 @@ const Home = () => {
         <div className="row">
           <div className="col-3">
             <div className="famous-card position-relative">
-              <img src="images/subbanner-01.webp" alt="" />
+              <img src="images/subbanner-01.webp"
+                  className='img-fluid'
+                  alt="subbanner" />
             <div className="famous-content position-absolute">
             <h5>Big Screen</h5>
             <h6>Smart Watch Series 7</h6>
             <p>From $3990r $16.62/mo. for 24 mo.*</p>
+            </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img src="images/subbanner-02.webp"
+                  className='img-fluid'
+                  alt="subbanner" />
+            <div className="famous-content position-absolute">
+            <h5 className='text-dark'>Studio Display</h5>
+            <h6 className='text-dark'>600 nits of brightness</h6>
+            <p className='text-dark'>27-inch 5K Retina display</p>
+            </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img src="images/subbanner-03.webp"
+                  className='img-fluid'
+                  alt="subbanner" />
+            <div className="famous-content position-absolute">
+            <h5 className='text-dark'>SMARTPHONES</h5>
+            <h6 className='text-dark'>Smartphone 14 pro</h6>
+            <p className='text-dark'>Now in Green. From $990 0r $41.64/mo. for 24 mo.Footnote*</p>
+            </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img src="images/subbanner-04.webp"
+                  className='img-fluid'
+                  alt="subbanner" />
+            <div className="famous-content position-absolute">
+            <h5 className='text-dark'>Studio Display</h5>
+            <h6 className='text-dark'>600 nits of brightness</h6>
+            <p className='text-dark'>27-inch 5K Retina display</p>
             </div>
             </div>
           </div>

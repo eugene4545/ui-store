@@ -1,3 +1,4 @@
+
   @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
 *{
   margin: 0;
@@ -370,12 +371,16 @@ transition: 0.3s;
 
 /* famous card */
 .famous-card .famous-content{
-  top: 20%;
+  top: 10%;
   left: 10%;
 }
 
+.famous-card img {
+  border-radius: 10px;
+}
+
 .famous-content h5{
-  font-weight: 700px;
+  font-weight: 400;
 font-size: 13px;
 line-height: 20px;
 color: white;
@@ -383,11 +388,17 @@ margin-bottom: 7px;
 }
 
 .famous-content h6{
-
+  font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+color: white;
 }
 
 .famous-content p{
-
+font-size: 16px;
+line-height: 24px;
+font-weight: 100;
+color: white;
 
 }
 /* famous card ends */
