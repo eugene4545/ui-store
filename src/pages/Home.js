@@ -138,11 +138,11 @@ const Home = () => {
               <h6>Music & Gaming</h6>
               <p>10 Items</p>
             </div>
-            <img src="images/camera.jpg" alt="camera" />
+            <img src="images/gamepad.webp" alt="camera" />
           </div>
           <div className='d-flex gap align-items-center'>
             <div>
-              <h6>Cameras</h6>
+              <h6>Cameras & Videos</h6>
               <p>10 Items</p>
             </div>
             <img src="images/camera.jpg" alt="camera" />
@@ -156,38 +156,38 @@ const Home = () => {
           </div>
           <div className='d-flex gap align-items-center'>
             <div>
-              <h6>Smart Watches</h6>
+              <h6>SmartWatches</h6>
+              <p>10 Items</p>
+            </div>
+            <img src="images/smartwatch.webp" alt="camera" />
+          </div>
+          <div className='d-flex gap align-items-center'>
+            <div>
+              <h6>Computers & Laptop</h6>
+              <p>10 Items</p>
+            </div>
+            <img src="images/laptop.jpg" alt="camera" />
+          </div>
+          <div className='d-flex gap align-items-center'>
+            <div>
+              <h6>Mobiles & Tablets</h6>
+              <p>10 Items</p>
+            </div>
+            <img src="images/m&t.webp" alt="camera" />
+          </div>
+          <div className='d-flex gap align-items-center'>
+            <div>
+              <h6>Headphones</h6>
               <p>10 Items</p>
             </div>
             <img src="images/headphone.jpg" alt="camera" />
           </div>
           <div className='d-flex gap align-items-center'>
             <div>
-              <h6>Music & Gaming</h6>
+              <h6>Accessories</h6>
               <p>10 Items</p>
             </div>
-            <img src="images/camera.jpg" alt="camera" />
-          </div>
-          <div className='d-flex gap align-items-center'>
-            <div>
-              <h6>Cameras</h6>
-              <p>10 Items</p>
-            </div>
-            <img src="images/camera.jpg" alt="camera" />
-          </div>
-          <div className='d-flex gap align-items-center'>
-            <div>
-              <h6>Smart Tv</h6>
-              <p>10 Items</p>
-            </div>
-            <img src="images/Tv.jpg" alt="camera" />
-          </div>
-          <div className='d-flex gap align-items-center'>
-            <div>
-              <h6>Smart Watches</h6>
-              <p>10 Items</p>
-            </div>
-            <img src="images/headphone.jpg" alt="camera" />
+            <img src="images/asseccories.webp" alt="camera" />
           </div>
           </div>
         </div>
@@ -252,9 +252,9 @@ const Home = () => {
                   className='img-fluid'
                   alt="subbanner" />
             <div className="famous-content position-absolute">
-            <h5 className='text-dark'>Studio Display</h5>
-            <h6 className='text-dark'>600 nits of brightness</h6>
-            <p className='text-dark'>27-inch 5K Retina display</p>
+            <h5 className='text-dark'>HOME SPEAKERS</h5>
+            <h6 className='text-dark'>Room-filling sound</h6>
+            <p className='text-dark'>From $699.0 or $116.58/mo. for 12mo.*</p>
             </div>
             </div>
           </div>

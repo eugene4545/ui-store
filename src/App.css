@@ -372,7 +372,7 @@ transition: 0.3s;
 /* famous card */
 .famous-card .famous-content{
   top: 10%;
-  left: 10%;
+  left: 5%;
 }
 
 .famous-card img {
@@ -385,6 +385,7 @@ font-size: 13px;
 line-height: 20px;
 color: white;
 margin-bottom: 7px;
+text-transform: uppercase;
 }
 
 .famous-content h6{
