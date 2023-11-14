@@ -249,7 +249,7 @@ const Home = () => {
           <div className="col-3">
             <div className="famous-card position-relative">
               <img src="images/subbanner-04.webp"
-                  className='img-fluid'
+                  className='img-fluid' 
                   alt="subbanner" />
             <div className="famous-content position-absolute">
             <h5 className='text-dark'>HOME SPEAKERS</h5>

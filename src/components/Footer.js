@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="col-5">
         <div className="footer-top-data d-flex gap-30 align-items-center">
         <img src="images/newsletter.png" alt="newsletter" />
-        <h2 className='mb-0 text-white'>Sign Up for Newsletter</h2>
+        <h2 className='mb-0 text-white'>Sign Up for Our Newsletter</h2>
         </div>
       </div>
       <div className="col-7">
@@ -52,13 +52,13 @@ const Footer = () => {
               <a className='text-white' href="https://linkedin.com">
               <BsLinkedin className='fs-4' />
               </a>
-              <a className='text-white' href="#">
+              <a className='text-white' href="https://instagram.com">
               <BsInstagram className='fs-4' />
               </a>
-              <a className='text-white' href="#">
+              <a className='text-white' href="https://github.com">
               <BsGithub className='fs-4' />
               </a>
-              <a className='text-white' href="#">
+              <a className='text-white' href="https://youtube.com">
               <BsYoutube className='fs-4' />
               </a>
               
