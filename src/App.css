@@ -304,6 +304,7 @@ footer .input-group-text{
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
+  width: 100%;
 }
 
 .product-card .product-image {
@@ -484,12 +485,13 @@ color: white;
   background-color: #f2f2f2;
   padding: 8px;
   border-radius: 3px;
+  cursor: pointer;
 }
 .gr-12{
   width: 100%;
 }
 .gr-6 {
-  width: 48%;
+  width: 49%;
 }
 
 .gr-4{
@@ -498,6 +500,28 @@ color: white;
 
 .gr-3{
   width: 24%;
+}
+
+.gr-12 .product-card {
+  display: flex;
+  gap: 20px;
+}
+
+.gr-4 .product-image {
+  width: 100%;
+}
+
+.gr-4 .product-image img {
+  margin: auto;
+  display: block;
+}
+
+.gr-12 .product-card .product-image {
+  width: 270px;
+}
+
+.gr-12 .action-bar {
+  top: 13%;
 }
 /* Our store ends */
 

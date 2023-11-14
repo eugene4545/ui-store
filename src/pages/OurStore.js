@@ -230,14 +230,14 @@ const OurStore = () => {
                     <p className="totalproducts mb-0">21 Products</p>
                     <div className="d-flex gap-10 align-items-center grid">
                       <img onClick={()=>{
-                        setGrid(4);
+                        setGrid(3);
                       }}
                         src="images/gr4.svg"
                         className="d-block img-fluid"
                         alt="grid"
                       />
                       <img onClick={()=>{
-                        setGrid(3);
+                        setGrid(4);
                       }}
                         src="images/gr3.svg"
                         className="d-block img-fluid"
