@@ -20,8 +20,8 @@ const ProductCard = (props) => {
             </Link>
           </div>
           <div className="product-image">
-            <img src="images/watch.jpg" className="img-fluid" alt="product" />
-            <img src="images/images.avif" className="img-fluid" alt="product" />
+            <img src="images/watch-11.webp" className="img-fluid" alt="product" />
+            <img src="images/watch-22.webp" className="img-fluid" alt="product" />
           </div>
           <div className="product-details">
             <h6 className="brand">Havels</h6>
