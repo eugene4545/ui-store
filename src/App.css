@@ -349,6 +349,12 @@ display: none;
 
 }
 
+.product-card p.description{
+  font-size: 13px;
+  color: var(--color-777777);
+  margin-right: 20px;
+}
+
 .action-bar{
 top: 10%;
 right: -23px;
@@ -507,11 +513,11 @@ color: white;
   gap: 20px;
 }
 
-.gr-4 .product-image {
+.gr-6 .product-image {
   width: 100%;
 }
 
-.gr-4 .product-image img {
+.gr-6 .product-image img {
   margin: auto;
   display: block;
 }
@@ -520,8 +526,12 @@ color: white;
   width: 270px;
 }
 
+.gr-12 .product-card .product-image{
+  height: auto;
+}
+
 .gr-12 .action-bar {
-  top: 13%;
+  top: 17%;
 }
 /* Our store ends */
 
