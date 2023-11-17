@@ -24,7 +24,51 @@ const Wishlist = () => {
                     alt="watch"
                   />
                 </div>
-                <div className="px-2 py-3"> 
+                <div className="px-3 py-3"> 
+                    <div className="title">
+                        <h5> Honor T1 7.0 GB ROM 7 Inch With Wi-fi+3G Tablet</h5>
+                        <h6 className="price">$ 100</h6>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="wishlist-card  position-relative">
+                <img
+                  src="images/cross.svg"
+                  alt="cross"
+                  className="position-absolute cross img-fluid"
+                />
+                <div className="wishlist-card-image">
+                  <img
+                    src="images/watch.jpg"
+                    className="img-fluid w-100"
+                    alt="watch"
+                  />
+                </div>
+                <div className="px-3 py-3"> 
+                    <div className="title">
+                        <h5> Honor T1 7.0 GB ROM 7 Inch With Wi-fi+3G Tablet</h5>
+                        <h6 className="price">$ 100</h6>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="wishlist-card  position-relative">
+                <img
+                  src="images/cross.svg"
+                  alt="cross"
+                  className="position-absolute cross img-fluid"
+                />
+                <div className="wishlist-card-image">
+                  <img
+                    src="images/watch.jpg"
+                    className="img-fluid w-100"
+                    alt="watch"
+                  />
+                </div>
+                <div className="px-3 py-3"> 
                     <div className="title">
                         <h5> Honor T1 7.0 GB ROM 7 Inch With Wi-fi+3G Tablet</h5>
                         <h6 className="price">$ 100</h6>
