@@ -298,7 +298,9 @@ footer .input-group-text{
 }
 
 .single-blog-card{
-  
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
 }
 /* Blog Part Ends */
 
