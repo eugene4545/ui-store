@@ -19,8 +19,16 @@ const Signup = () => {
                 <div>
                   <input
                     type="text"
-                    name="name"
-                    placeholder="Name"
+                    name="First Name"
+                    placeholder="First Name"
+                    className="form-control"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    name="Last Name"
+                    placeholder="Last Name"
                     className="form-control"
                   />
                 </div>
