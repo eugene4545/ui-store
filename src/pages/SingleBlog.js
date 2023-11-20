@@ -20,7 +20,7 @@ const SingleBlog = () => {
                 <h3 className="title">
                   A beautiful sunday morning renaissance
                 </h3>
-                <img src="images/blog-3.webp" 
+                <img src="/images/blog-3.webp  " 
                 className="img-fluid w-100 my-4" 
                 alt="blog" 
                 />
