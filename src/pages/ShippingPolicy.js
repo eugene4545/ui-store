@@ -4,8 +4,8 @@ import Meta from "../components/Meta";
 const ShippingPolicy = () => {
   return (
     <>
-    <Meta title={"Blogs"} />
-      <BreadCrumb title="Blogs" />   
+    <Meta title={"Shipping Policy"} />
+      <BreadCrumb title="Shipping Policy" />   
     </>
   )
 }

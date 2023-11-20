@@ -4,8 +4,8 @@ import Meta from "../components/Meta";
 const PrivacyPolicy = () => {
   return (
     <>  
-    <Meta title={"Blogs"} />
-      <BreadCrumb title="Blogs" />   
+    <Meta title={"Privacy Policy"} />
+      <BreadCrumb title="Privacy Policy" />   
     </>
     )
 }

@@ -4,8 +4,8 @@ import Meta from "../components/Meta";
 const RefundPolicy = () => {
   return (
       <>    
-      <Meta title={"Blogs"} />
-      <BreadCrumb title="Blogs" />   
+      <Meta title={"Refund Policy"} />
+      <BreadCrumb title="Refund Policy" />   
       </>
     )
 }
