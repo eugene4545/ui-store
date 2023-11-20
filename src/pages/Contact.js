@@ -15,13 +15,13 @@ const Contact = () => {
           <div className="row">
             <div className="col-12">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.179121816241!2d3.376125973992623!3d6.498994023449716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf59087c40e33%3A0x214df15a9bd4ccf4!2sGOMYCODE%20Yaba!5e0!3m2!1sen!2sng!4v1700089201668!5m2!1sen!2sng"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2186784671003!2d3.3549533739925628!3d6.493973323507844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8df3f3712671%3A0x51fda78cd76e29e7!2sTIG%20Electronics!5e0!3m2!1sen!2sng!4v1700492689632!5m2!1sen!2sng"
                 width="600"
                 height="450"
                 className="border-0 w-100"
-                allowFullScreen=""
+                allowfullscreen=""
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
             <div className="col-12 mt-5">
@@ -70,24 +70,24 @@ const Contact = () => {
                   <div>
                     <ul className="ps-0">
                       <li className="mb-3 d-flex gap-15 align-items-center">
-                        <AiOutlineHome className="fs-5"/>
+                        <AiOutlineHome className="fs-5" />
                         <address className="mb-0">
                           Hno:277 , Near village chopal , Mandura, Sonipat,
                           Haryana
                         </address>
                       </li>
                       <li className="mb-3 d-flex gap-15 align-items-center">
-                      <BiPhoneCall className="fs-5"/>
-                      <a href="tel:+91 8264954234">+91 826456788</a>
+                        <BiPhoneCall className="fs-5" />
+                        <a href="tel:+91 8264954234">+91 826456788</a>
                       </li>
                       <li className="mb-3 d-flex gap-15 align-items-center">
-                        <AiOutlineMail className="fs-5"/>
+                        <AiOutlineMail className="fs-5" />
                         <a href="mailto:eugeneonuoha72@gmail.com">
                           eugeneonuoha72@gmail.com
                         </a>
                       </li>
                       <li className="mb-3 d-flex gap-15 align-items-center">
-                        < BiInfoCircle className="fs-5"/>
+                        <BiInfoCircle className="fs-5" />
                         <p className="mb-0">Monday - Friday 10 AM - 8 PM</p>
                       </li>
                     </ul>
