@@ -16,7 +16,7 @@ const Signup = () => {
               <h3 className="text-center mb-3">Sign Up</h3>
               <form action="" className="d-flex flex-column gap-15">
                 <div>
-                  <input
+                  <input 
                     type="text"
                     name="First Name"
                     placeholder="First Name"

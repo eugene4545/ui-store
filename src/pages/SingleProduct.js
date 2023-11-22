@@ -2,7 +2,11 @@ import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 import ProductCard from "../components/ProductCard";
+import ReactStars from "react-rating-stars-component"; 
+import { useState } from "react";
+
 const SingleProduct = () => {
+  const [orderedProduct, setorderedProduct] = useState(true);
   return (
     <>
       <Meta title={"Product Name"} />
@@ -34,12 +38,29 @@ const SingleProduct = () => {
             </div>
           </div>
         </div>
-        <section className="reviews-wrapper">
+        <section className="reviews-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-                <div className="review-head d-flex">
-
+          <div className="review-head d-flex justify-content-between align-items-end">
+            <div>
+              <h4 className="mb-2">Customer Reviews</h4>
+             <div className="d-flex align-items-center gap-10">
+             <ReactStars
+              count={5}
+              size={24}
+              value={4}
+              edit={false} 
+              activeColor="#ffd700"
+            />
+            <p className="mb-0">Based on 2 Reviews</p>
+             </div>
+            </div>   
+            {orderedProduct && (
+               <div>
+               <a  className="text-dark text-decoration-underline" href="">Write a Review</a>
+             </div>
+            )}
                 </div>
             </div>
           </div>
