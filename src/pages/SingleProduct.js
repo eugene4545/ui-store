@@ -14,7 +14,11 @@ const SingleProduct = () => {
       <div className="main-product-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-6"></div>
+            <div className="col-6">
+              <div className="main-product-image">
+
+              </div>
+            </div>
             <div className="col-6"></div>
           </div>
         </div>
@@ -38,10 +42,11 @@ const SingleProduct = () => {
           </div>
         </div>
       </div>
-      <section className="reviews-wrapper py-5 home-wrapper-2">
+      <section className="reviews-wrapper home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
+              <h4>Reviews</h4>
               <div className="review-inner-wrapper">
                 <div className="review-head d-flex justify-content-between align-items-end">
                   <div>

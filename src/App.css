@@ -686,6 +686,18 @@ color: white;
 
 
 /* Main Product Page */
+.description-wrapper h4,
+.reviews-wrapper h3{
+  font-size: 26px;
+  color: #1c1c1b;
+  margin-bottom: 10px;
+}
+.description-wrapper p{
+  font-size: 14px;
+  color: var(--color-777777);
+}
+
+
 .review-inner-wrapper{
   background-color: white;
   padding: 30px;
@@ -725,4 +737,14 @@ color: white;
   color: var(--color-777777);
 }
 
+
+.main-product-image{
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.main-product-image > div {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
 /* Main Product Page ends */
