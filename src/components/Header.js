@@ -25,7 +25,7 @@ const Header = () => {
             <div className="row align-items-center">
                 <div className="col-sm-2">
                     <h2>
-                        <Link className='text-white'>TIG Electronics</Link>
+                        <Link className='text-white'>Odera</Link>
                         </h2>
                 </div>
                 <div className="col-sm-5">

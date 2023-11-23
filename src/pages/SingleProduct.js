@@ -9,8 +9,9 @@ import ReactImageZoom from "react-image-zoom";
 const SingleProduct = () => {
   const props = {
     width: 400,
-    height: 250,
+    height: 500,
     zoomWidth: 500,
+    
     img: "https://i5.walmartimages.com/seo/Apple-Watch-SE-1st-Gen-GPS-44mm-Gold-Aluminum-Case-with-Starlight-Sport-Band-Regular_ca67d117-88cc-4ff9-af24-f6faaec8e9af.5b099ee4bae46316bd33f22ba8ae08a5.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
   };
 
@@ -27,6 +28,12 @@ const SingleProduct = () => {
                 <div>
                   <ReactImageZoom {...props} />
                 </div>
+              </div>
+              <div className="other-product-images d-flex flex-wrap gap-15">
+                <div><img src="https://i5.walmartimages.com/seo/Apple-Watch-SE-1st-Gen-GPS-44mm-Gold-Aluminum-Case-with-Starlight-Sport-Band-Regular_ca67d117-88cc-4ff9-af24-f6faaec8e9af.5b099ee4bae46316bd33f22ba8ae08a5.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF" className="img-fluid" alt="" /></div>
+                <div><img src="https://i5.walmartimages.com/seo/Apple-Watch-SE-1st-Gen-GPS-44mm-Gold-Aluminum-Case-with-Starlight-Sport-Band-Regular_ca67d117-88cc-4ff9-af24-f6faaec8e9af.5b099ee4bae46316bd33f22ba8ae08a5.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF" className="img-fluid" alt="" /></div>
+                <div><img src="https://i5.walmartimages.com/seo/Apple-Watch-SE-1st-Gen-GPS-44mm-Gold-Aluminum-Case-with-Starlight-Sport-Band-Regular_ca67d117-88cc-4ff9-af24-f6faaec8e9af.5b099ee4bae46316bd33f22ba8ae08a5.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF" className="img-fluid" alt="" /></div>
+                <div><img src="https://i5.walmartimages.com/seo/Apple-Watch-SE-1st-Gen-GPS-44mm-Gold-Aluminum-Case-with-Starlight-Sport-Band-Regular_ca67d117-88cc-4ff9-af24-f6faaec8e9af.5b099ee4bae46316bd33f22ba8ae08a5.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF" className="img-fluid" alt="" /></div>
               </div>
             </div>
             <div className="col-6"></div>
