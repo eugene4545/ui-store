@@ -4,8 +4,16 @@ import Meta from "../components/Meta";
 import ProductCard from "../components/ProductCard";
 import ReactStars from "react-rating-stars-component";
 import { useState } from "react";
+import ReactImageZoom from "react-image-zoom";
 
 const SingleProduct = () => {
+  const props = {
+    width: 400,
+    height: 250,
+    zoomWidth: 500,
+    img: "https://i5.walmartimages.com/seo/Apple-Watch-SE-1st-Gen-GPS-44mm-Gold-Aluminum-Case-with-Starlight-Sport-Band-Regular_ca67d117-88cc-4ff9-af24-f6faaec8e9af.5b099ee4bae46316bd33f22ba8ae08a5.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+  };
+
   const [orderedProduct, setorderedProduct] = useState(true);
   return (
     <>
@@ -16,7 +24,9 @@ const SingleProduct = () => {
           <div className="row">
             <div className="col-6">
               <div className="main-product-image">
-
+                <div>
+                  <ReactImageZoom {...props} />
+                </div>
               </div>
             </div>
             <div className="col-6"></div>
@@ -28,7 +38,7 @@ const SingleProduct = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-            <h4>Description</h4>
+              <h4>Description</h4>
               <div className="bg-white p-3">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -104,13 +114,13 @@ const SingleProduct = () => {
                   <div className="review">
                     <div className="d-flex gap-10 align-items-center">
                       <h6 className="mb-0">temitola</h6>
-                    <ReactStars
-                      count={5}
-                      size={24}
-                      value={4}
-                      edit={false}
-                      activeColor="#ffd700"
-                    />
+                      <ReactStars
+                        count={5}
+                        size={24}
+                        value={4}
+                        edit={false}
+                        activeColor="#ffd700"
+                      />
                     </div>
                     <p className="mt-3">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
