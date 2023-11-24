@@ -759,10 +759,17 @@ color: white;
  }
 .other-product-images>div{
   padding: 20px;
-  width: 40%;
+  width: 48%;
   border: 1px solid rgba(0, 0, 0, 0.25);
 
 
+}
+
+.main-product-image .js-image-zoom__zoomed-image{
+  left: 230px !important;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 /* Main Product Page ends */
