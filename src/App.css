@@ -761,8 +761,12 @@ color: white;
   padding: 20px;
   width: 48%;
   border: 1px solid rgba(0, 0, 0, 0.25);
+}
 
-
+.main-product-details{
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .main-product-image .js-image-zoom__zoomed-image{
