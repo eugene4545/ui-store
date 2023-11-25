@@ -38,7 +38,13 @@ const SingleProduct = () => {
             </div>
             <div className="col-6">
               <div className="main-product-details">
-                <h3>Kids Headphones Bulk 10 Pack Multi Colored For Students</h3>
+             <div className="border-bottom">
+             <h3 className="title">Kids Headphones Bulk 10 Pack Multi Colored For Students</h3>
+             </div>
+             <div className="border-bottom">
+              <p className="price">$ 100</p>
+              <div className="d-flex align-items-center gap-10"></div>
+             </div>
               </div>
             </div>
           </div>
