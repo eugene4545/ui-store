@@ -739,7 +739,7 @@ color: white;
 }
 
 
-.main-product-image{
+.main-product-image{ 
   padding: 20px;
   background-color: white;
   border-radius: 10px;
@@ -765,7 +765,7 @@ color: white;
 }
 
 .main-product-details{
-  padding: 20px;
+  padding: 30px 20px;
   background-color: white;
   border-radius: 10px;
 }

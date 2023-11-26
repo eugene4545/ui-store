@@ -95,7 +95,7 @@ const SingleProduct = () => {
                     Write a Review
                   </a>
                 </div>
-                <div className="border-bottom py-3">
+                <div className="py-3">
                   <div className="d-flex gap-10 align-items-center my-2">
                     <h3 className="product-heading">Type :</h3>
                     <p className="product-data">Watch</p>
@@ -171,15 +171,15 @@ const SingleProduct = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="d-flex gap-10 align-items-center my-2">
+                  <div className="d-flex gap-10 flex-column my-3">
                     <h3 className="product-heading">Shipping & Returns :</h3>
                     <p className="product-data">
                       Free shipping and returns available on all orders! <br />
                       We ship all US domestic orders within
                       <b>5-10 business days!</b>
-                    </p>
+                    </p>    
                   </div>
-                  <div className="d-flex gap-10 align-items-center my-2">
+                  <div className="d-flex gap-10 align-items-center my-3">
                     <h3 className="product-heading">Product Link :</h3>
                   <a 
                   href="javascript:void(0);"
