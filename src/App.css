@@ -819,3 +819,23 @@ margin-bottom: 0px;
   color: var(--color-777777);
 }
 /* Main Product Page ends */
+
+/* cart page */
+.cart-header {
+  border-bottom: 1px solid #eaeaea;
+}
+.cart-header h4{
+  font-size: 13px;
+  /* text-transform: uppercase; */
+  color: var(--color-777777);
+}
+
+.cart-col-1{
+width: 40%;
+}
+
+.cart-col-2{
+
+}
+
+/* cart page ends here */
