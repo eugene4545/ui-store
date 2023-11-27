@@ -821,7 +821,8 @@ margin-bottom: 0px;
 /* Main Product Page ends */
 
 /* cart page */
-.cart-header {
+.cart-header,
+.cart-data {
   border-bottom: 1px solid #eaeaea;
 }
 .cart-header h4{
@@ -834,8 +835,26 @@ margin-bottom: 0px;
 width: 40%;
 }
 
-.cart-col-2{
+.cart-col-1 p{
+  color: var(--color-777777);
+  font-size: 14px;
+}
 
+.cart-col-2{
+width: 10%;
+}
+
+.cart-col-3{
+  width: 15%;
+}
+
+.cart-col-4{
+  width: 15%;
+}
+
+.cart-data h5.price{
+  font-size: 14px;
+  color: var(--color-1c1c1b);
 }
 
 /* cart page ends here */
