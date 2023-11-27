@@ -9,6 +9,7 @@ import Color from "../components/Color";
 import { TbGitCompare } from "react-icons/tb";
 import { AiOutlineHeart } from "react-icons/ai";
 
+
 const SingleProduct = () => {
   const props = {
     width: 400,

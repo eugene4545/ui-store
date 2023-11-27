@@ -3,6 +3,7 @@ import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 import { HiOutlineArrowLeft } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import blog from "../images/blog-1.jpg";
 
 const SingleBlog = () => {
   return (
@@ -20,7 +21,7 @@ const SingleBlog = () => {
                 <h3 className="title">
                   A beautiful sunday morning renaissance
                 </h3>
-                <img src="/images/blog-3.webp  " 
+                <img src={blog} 
                 className="img-fluid w-100 my-4" 
                 alt="blog" 
                 />
