@@ -210,9 +210,51 @@ footer .input-group-text{
   color: var(--color-131921);
 }
 
-.small-banner {
-  width: 49%;
+
+.home-wrapper-1 .main-banner{
+  background-position: center;
+  background-color: cover;
+  background-image: url('images/main-banner-1.jpg');
+  height: 450px;
+  border-radius: 5px;
+}
+.home-wrapper-1 .container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+@media screen and (min-width: 700px) and (max-width: 991px) {
+  .home-wrapper-1 .container{
+    grid-template-columns: repeat(1, 1fr);
+  }
   
+}
+.small-banners{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  height: 450px;
+}
+.small-banner {
+  border-radius: 5px;
+  height: auto;
+  background-position: center;
+  background-color: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.small-banner.small-banner-1 {
+  background-image: url('images/catbanner-01.jpg');
+}
+.small-banner.small-banner-2 {
+  background-image: url('images/catbanner-02.jpg');
+}
+.small-banner.small-banner-3 {
+  background-image: url('images/catbanner-03.jpg');
+}
+.small-banner.small-banner-4 {
+  background-image: url('images/catbanner-04.jpg');
 }
 
 
