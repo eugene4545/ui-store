@@ -113,13 +113,22 @@ const Checkout = () => {
             </div>
             <div className="col-5">
               <div className="border-bottom py-4">
-                <div>
+                <div className="d-flex gap-10 mb-2 align-align-items-center">
+                <div className="w-75 d-flex gap-10">
+                  <div className="w-25 position-relative">
+                    <span style={{ top:"-10px", right: "2px" }} 
+                    className="badge bg-secondary text-white rounded-circle p-2 position-absolute">1</span>
+                    <img className="img-fluid" src={watch} alt="product" />
+                  </div>
                   <div>
-                    <img src={watch} alt="product" />
+                    <h5 className="title">watch</h5>
+                    <p>s / #kjgfefenj</p>
                   </div>
                 </div>
-                <div>
+                <div className="flex-grow-1">
                   <h5>$ 100</h5>
+
+                </div>
                 </div>
               </div>
               <div className="border-bottom py-4">
