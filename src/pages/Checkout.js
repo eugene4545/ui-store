@@ -19,24 +19,25 @@ const Checkout = () => {
                 >
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <Link className="text-dark" to='/cart'>Cart</Link>
+                      <Link className="text-dark total-price " to='/cart'>Cart</Link>
                     </li>
                     &nbsp; /
-                    <li className="breadcrumb-item active" aria-current="page">
+                    <li className="breadcrumb-item  total-price active" aria-current="page">
                       Information
                     </li>
                     &nbsp; /   
-                    <li className="breadcrumb-item active">Shipping</li>
+                    <li className="breadcrumb-item  total-price active">Shipping</li>
                     &nbsp; /
-                    <li className="breadcrumb-item active" aria-current="page">
+                    <li className="breadcrumb-item  total-price active" aria-current="page">
                       Payment
                     </li>
                   </ol>
                 </nav>
-                <h4 className="title">Contact Information</h4>
-                <p className="user-details">
+                <h4 className="title total">Contact Information</h4>
+                <p className="user-details total">
                   Eugene Onuoha (eugeneonuoha72@gmail)
                 </p>
+                <h4 className="mb-3">Shipping Address</h4>
                 <form
                   action=""
                   className="d-flex gap-15 flex-wrap justify-content-between"
@@ -121,30 +122,30 @@ const Checkout = () => {
                     <img className="img-fluid" src={watch} alt="product" />
                   </div>
                   <div>
-                    <h5 className="title">watch</h5>
-                    <p>s / #kjgfefenj</p>
+                    <h5 className="total-price">watch</h5>
+                    <p className="total-price">s / #kjgfefenj</p>
                   </div>
                 </div>
                 <div className="flex-grow-1">
-                  <h5>$ 100</h5>
+                  <h5 className="total">$ 100</h5>
 
                 </div>
                 </div>
               </div>
               <div className="border-bottom py-4">
               <div className="d-flex justify-content-between align-items-center">
-                  <p>Subtotal</p> 
-                  <p>$ 1000</p>
+                  <p className="total">Subtotal</p> 
+                  <p className="total-price">$ 1000</p>
                 </div>
               <div className="d-flex justify-content-between align-items-center">
-                  <p className="mb-0">Shipping</p> 
-                  <p className="mb-0">$ 10000</p>
+                  <p className="mb-0 total">Shipping</p> 
+                  <p className="mb-0 total-price">$ 10000</p>
                 </div>
               </div>
               <div>
                 <div className="d-flex justify-content-between align-items-center border-bottom py-4">
-                  <h4>Total</h4>
-                  <h5>$ 1000</h5>
+                  <h4 className="total">Total</h4>
+                  <h5 className="total-price">$ 1000</h5>
                 </div>
               </div>
             </div>
