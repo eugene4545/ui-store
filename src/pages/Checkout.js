@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { IoIosArrowBack } from "react-icons/io";
+import watch from "../images/watch.jpg"
 
 const Checkout = () => {
   return (
@@ -16,11 +19,17 @@ const Checkout = () => {
                 >
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <a href="#">Home</a>
+                      <Link className="text-dark" to='/cart'>Cart</Link>
                     </li>
                     &nbsp; /
                     <li className="breadcrumb-item active" aria-current="page">
-                      Library
+                      Information
+                    </li>
+                    &nbsp; /   
+                    <li className="breadcrumb-item active">Shipping</li>
+                    &nbsp; /
+                    <li className="breadcrumb-item active" aria-current="page">
+                      Payment
                     </li>
                   </ol>
                 </nav>
@@ -33,42 +42,103 @@ const Checkout = () => {
                   className="d-flex gap-15 flex-wrap justify-content-between"
                 >
                   <div className="w-100">
-                    <select
-                      name=""
-                      id=""
-                      className="form-control form-select"
-                    ></select>
+                    <select name="" id="" className="form-control form-select">
+                      <option value="" selected disabled>
+                        Select Country
+                      </option>
+                    </select>
                   </div>
-                  <div>
-                    <input type="text" className="form-control" />
+                  <div className="flex-grow-1">
+                    <input
+                      type="text"
+                      placeholder="First Name"
+                      className="form-control"
+                    />
                   </div>
-                  <div>
-                    <input type="text" className="form-control" />
+                  <div className="flex-grow-1">
+                    <input
+                      type="text"
+                      placeholder="Last Name"
+                      className="form-control"
+                    />
                   </div>
                   <div className="w-100">
-                    <input type="text" className="form-control" />
+                    <input
+                      type="text"
+                      placeholder="Address"
+                      className="form-control"
+                    />
                   </div>
                   <div className="w-100">
-                    <input type="text" className="form-control" />
+                    <input
+                      type="text"
+                      placeholder="Apartment, Suite, etc"
+                      className="form-control"
+                    />
                   </div>
-                  <div>
-                  <input type="text" className="form-control" />
+                  <div className="flex-grow-1">
+                    <input
+                      type="text"
+                      placeholder="City"
+                      className="form-control"
+                    />
                   </div>
-                  <div>
-                  <select
-                      name=""
-                      id=""
-                      className="form-control form-select"
-                    ></select>
+                  <div className="flex-grow-1">
+                    <select name="" id="" className="form-control form-select">
+                      <option value="" selected disabled>
+                        Select State
+                      </option>
+                    </select>
                   </div>
-                  <div>
-                  <input type="text" className="form-control" />
-
+                  <div className="flex-grow-1">
+                    <input
+                      type="text"
+                      placeholder="ZipCode"
+                      className="form-control"
+                    />
+                  </div>
+                  <div className="w-100">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <Link to="/cart" className="text-dark">
+                      <IoIosArrowBack className="me-2" />
+                        Return to Cart
+                      </Link>
+                      <Link to="/cart" className="button">
+                        Continue to Shipping
+                      </Link>
+                    </div>
                   </div>
                 </form>
               </div>
             </div>
-            <div className="col-5"></div>
+            <div className="col-5">
+              <div className="border-bottom py-4">
+                <div>
+                  <div>
+                    <img src={watch} alt="product" />
+                  </div>
+                </div>
+                <div>
+                  <h5>$ 100</h5>
+                </div>
+              </div>
+              <div className="border-bottom py-4">
+              <div className="d-flex justify-content-between align-items-center">
+                  <p>Subtotal</p> 
+                  <p>$ 1000</p>
+                </div>
+              <div className="d-flex justify-content-between align-items-center">
+                  <p className="mb-0">Shipping</p> 
+                  <p className="mb-0">$ 10000</p>
+                </div>
+              </div>
+              <div>
+                <div className="d-flex justify-content-between align-items-center border-bottom py-4">
+                  <h4>Total</h4>
+                  <h5>$ 1000</h5>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
