@@ -715,7 +715,7 @@ color: white;
   color: var(--color-1c1c1b);
 }
 
-.review-head p,
+.review-head p, 
 .review-head a{
   font-size: 14px;
   color: var(--color-777777);
