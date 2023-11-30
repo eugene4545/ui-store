@@ -19,7 +19,7 @@ const Signup = () => {
                 <CustomInput type="text" name="name" placeholder="Name" />
                 <CustomInput type="email" name="email" placeholder="email" />
                 <CustomInput  type="tel" name="mobile" placeholder="Mobile Number" />
-                <CustomInput  type="tel" name="mobile" placeholder="Mobile Number" />
+                <CustomInput  type="password" name="password" placeholder="password" />
                 
                 {/* <div>
                   <input
@@ -30,14 +30,7 @@ const Signup = () => {
                   />
                 </div> */}
                 
-                <div className="mt-3">
-                  <input
-                    type="password"
-                    name="password"
-                    placeholder="password"
-                    className="form-control"
-                  />
-                </div>
+                
                 <div>  
 
                     <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
