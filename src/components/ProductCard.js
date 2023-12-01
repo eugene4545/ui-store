@@ -1,7 +1,7 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from "react-router-dom";
-import prodcompare from "../images/prodcompare.svg"
+import prodcompare from "../images/prodcompare.svg";
 import wish from "../images/wish.svg";
 import wishlist from "../images/wishlist.svg";
 import watch from "../images/watch-11.webp";
@@ -10,8 +10,6 @@ import addcart from "../images/add-cart.svg";
 import view from "../images/view.svg";
 import watch3 from "../images/watch.jpg";
 import image from "../images/images.avif";
-
-
 
 const ProductCard = (props) => {
   const { grid } = props;
@@ -25,7 +23,16 @@ const ProductCard = (props) => {
           location.pathname === "/product" ? `gr-${grid}` : "col-3"
         }  `}
       >
-        <Link to=':id' className="product-card position-relative">
+        <Link
+         to={`${
+          location.pathname === "/"
+            ? "product/:id" 
+            :location.pathname === "/product/:id"
+            ? "/product/:id"
+            : ":id"
+          }`}
+          className="product-card position-relative"
+        >
           <div className="wishlist-icon position-absolute">
             <button className="border-0 bg-transparent">
               <img src={wish} alt="wishlist" />
@@ -49,9 +56,9 @@ const ProductCard = (props) => {
             />
             <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-            fuga. Eius blanditiis cum
-              facilis, ea voluptatem beatae! Provident doloribus consequuntur
-              culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, delectus!
+              fuga. Eius blanditiis cum facilis, ea voluptatem beatae! Provident
+              doloribus consequuntur culpa! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Placeat, delectus!
             </p>
             <p className="price">$100.00</p>
           </div>
@@ -75,7 +82,16 @@ const ProductCard = (props) => {
           location.pathname === "/product" ? `gr-${grid}` : "col-3"
         }  `}
       >
-        <Link className="product-card position-relative">
+        <Link
+          to={`${
+            location.pathname === "/"
+              ? "product/:id" 
+              :location.pathname === "/product/:id"
+              ? "/product/:id"
+              : ":id"
+            }`}
+          className="product-card position-relative"
+        >
           <div className="wishlist-icon position-absolute">
             <button className="border-0 bg-transparent">
               <img src={wish} alt="wishlist" />
@@ -101,7 +117,8 @@ const ProductCard = (props) => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
               tempore perspiciatis deleniti dolore fuga. Eius blanditiis cum
               facilis, ea voluptatem beatae! Provident doloribus consequuntur
-              culpa! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, magni?
+              culpa! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Ipsa, magni?
             </p>
             <p className="price">$100.00</p>
           </div>
