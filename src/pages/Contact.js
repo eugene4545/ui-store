@@ -72,8 +72,7 @@ const Contact = () => {
                       <li className="mb-3 d-flex gap-15 align-items-center">
                         <AiOutlineHome className="fs-5" />
                         <address className="mb-0">
-                          Hno:277 , Near village chopal , Mandura, Sonipat,
-                          Haryana
+                          NO 47 ,  Adeniran Ogunsanya St, Surulere, Lagos
                         </address>
                       </li>
                       <li className="mb-3 d-flex gap-15 align-items-center">
