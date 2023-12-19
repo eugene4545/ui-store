@@ -15,8 +15,7 @@ const Contact = () => {
           <div className="row">
             <div className="col-12">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2186784671003!2d3.3549533739925628!3d6.493973323507844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8df3f3712671%3A0x51fda78cd76e29e7!2sTIG%20Electronics!5e0!3m2!1sen!2sng!4v1700492689632!5m2!1sen!2sng"
-                width="600"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9925.122642251401!2d3.3683002076203783!3d6.502936601832454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ddf181a54f3%3A0xb3b010fd15b02235!2sAlagomeji%20Train%20Station!5e0!3m2!1sen!2sng!4v1703029009283!5m2!1sen!2sng"                width="600"
                 height="450"
                 className="border-0 w-100"
                 allowfullscreen=""
