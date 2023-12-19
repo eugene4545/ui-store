@@ -72,7 +72,7 @@ const Contact = () => {
                       <li className="mb-3 d-flex gap-15 align-items-center">
                         <AiOutlineHome className="fs-5" />
                         <address className="mb-0">
-                          NO 47 ,  Adeniran Ogunsanya St, Surulere, Lagos
+                          NO 123, Main StreetSt, Yaba, Lagos
                         </address>
                       </li>
                       <li className="mb-3 d-flex gap-15 align-items-center">
