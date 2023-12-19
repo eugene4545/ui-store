@@ -21,7 +21,7 @@ const Contact = () => {
                 className="border-0 w-100"
                 allowfullscreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerpolicy="no-referrer-when-downgrade" //update map
               ></iframe>
             </div>
             <div className="col-12 mt-5">
