@@ -21,7 +21,7 @@ const Contact = () => {
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade" 
-              ></iframe>
+              ></iframe> // check this again
             </div>
             <div className="col-12 mt-5">
               <div className="contact-inner-wrapper d-flex justify-content-between">
