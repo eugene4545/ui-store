@@ -39,7 +39,7 @@ const Footer = () => {
               <h4 className="text-white mb-4">Contact Us</h4>
               <div>
                 <address className="text-white fs-6">
-                  NO 47 Adeniran Ogunsanya St,
+                  NO 123, Herbert macaulay street,
                   <br /> Surulere , Lagos
                   <br />
                   PinCode: 131103
