@@ -40,7 +40,7 @@ const Footer = () => {
               <div>
                 <address className="text-white fs-6">
                   NO 123, Herbert macaulay street,
-                  <br /> Surulere , Lagos
+                  <br /> Surulere , Lagos.
                   <br />
                   PinCode: 131103
                 </address>
@@ -48,7 +48,7 @@ const Footer = () => {
                   href="tel: +91 456578902"
                   className="mt-3 d-block mb-2 text-white"
                 >
-                  +91 456578902
+                  +234 8145657862 , +44 6789234026
                 </a>
                 <a
                   href="mailto:eugeneonuoha72@gmail.com "
